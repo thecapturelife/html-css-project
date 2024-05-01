@@ -437,9 +437,6 @@ button:hover {
         margin-top: 230px !important;
         margin-left: -10px;
     }
-    .rounded{
-        display: none;
-    }
     .Para{
         font-size: 20px;
         margin-top: 200px;
@@ -482,7 +479,35 @@ button:hover {
     .menPhoto{
         height: 25%;
         width: 34%;
-        left: 40px;
+        background-image: url('men.png');
+    }
+    .rounded {
+        width: 25rem;
+        height: 29rem;
+        border-radius: 100%;
+        margin-left: 3rem;       
+    }
+    .mask {
+        width: 5rem;
+        height: 5rem;
+        margin-top: -150px;
+        margin-left: 2rem;
+    
+    }
+    .mask2 {
+        width: 5rem;
+        height: 5rem;
+        position: absolute;
+        margin-top: -300px;
+        margin-left: 0.5rem;
+    
+    }
+    .mask3 {
+        width: 5rem;
+        height: 5rem;
+        position: absolute;
+        margin-top: -450px;
+        margin-left: 4rem;
     }
 }
 
