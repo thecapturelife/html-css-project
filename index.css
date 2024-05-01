@@ -477,9 +477,10 @@ button:hover {
         margin-left: -40px;
     }
     .menPhoto{
-        height: 25%;
+        height: 18%;
         width: 34%;
-        background-image: url('men.png');
+        margin-left: -870px;
+        margin-top: -40px;
     }
     .rounded {
         width: 25rem;
