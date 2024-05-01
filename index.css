@@ -1,0 +1,489 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CDE4FD;
+
+    
+
+}
+.main {
+    background-color: #CDE4FD;
+
+}
+
+header {
+    background-color: #CDE4FD;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    font-size: larger;
+}
+
+nav ul li img.phone {
+    width: 20px; 
+    height: auto;
+    margin-right: 5px; 
+    vertical-align: middle; 
+}
+
+nav ul li span {
+    vertical-align: middle; 
+}
+
+nav ul li:last-child {
+    margin-left: auto; 
+}
+
+nav ul li + li {
+    margin-left: 40px; 
+}
+.Para { 
+    font-size: 4rem;
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+.para2 {
+    font-size: 25px;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.button {
+    margin-left: 8rem;
+    border-radius: 25px;
+    width: 8rem;
+    height: 2rem;
+    background-color: #13337C;
+    color: white;
+    transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.button:hover {
+    background-color: #0e42bd; /* Change background color on hover */
+}
+
+.rounded {
+    background-color: #3272b3;
+    width: 40rem;
+    height: 39rem;
+    border-radius: 100%;
+    margin-left: 7.3rem;
+    margin-top: 8rem;
+    object-fit: cover;
+    
+}
+.mainn{
+    /* background-color: brown; */
+    height: 38rem;
+    margin:0px;
+    display: flex;
+    overflow: hidden;
+}
+.left{
+    /* background-color:blue; */
+    width: 50%;
+}
+
+.menPhoto{
+    height: 85%;
+    width: 34%;
+    top: 120px;
+    position: absolute;
+    left: 940px;
+}
+.mask {
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 3rem;
+
+}
+.mask2 {
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 5rem;
+
+}
+.mask3 {
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 11rem;
+}
+.secimg2 {
+    width: 100%;
+    height: 100vh;
+}
+.section{
+    height: 100vh;
+    background-image: url(./secimg2.png);
+    display: flex;
+}
+.text-box{
+    font-size: 2rem;
+    color: white;
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+.section_left{
+width: "50%";
+margin-left: 5rem;
+margin-top: 4rem;
+font-size: 2rem;
+color: white;
+/* background-color: red; */
+}
+.section_rigth{
+    height: 100%;
+    width: "50%";
+    /* background-color: blue; */
+}
+.paragraph {
+    font-size: 20px;
+    font-style: oblique;
+}
+.secimg3{
+    height: 35rem;
+    margin-left: 19rem;
+    margin-top: 4rem;
+}
+.scube {
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: 17rem;
+
+}
+.section2{
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+.onside {
+    height: 100vh;
+    width: 35%;
+    /* margin-left: 5rem; */
+    /* background-color: blue; */
+
+}
+.onside img {
+    height: 100vh;
+}
+.onside2 {
+    height: 100vh;
+    width: 70%;
+
+}
+.onside2 h1 {
+    text-align: start;
+    font-size: 3rem;
+    color:#1354BA;
+}
+.onside2 p {
+    color: #717171 ;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background: transparent;
+    
+}
+
+input[type="text"] + label,
+input[type="email"] + label,
+textarea + label {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus + label,
+input[type="email"]:focus + label,
+textarea:focus + label,
+input[type="text"]:valid + label,
+input[type="email"]:valid + label,
+textarea:valid + label {
+    font-size: 0.8em;
+    bottom: 25px;
+    color: #007bff;
+}
+
+button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}.formdata{
+    /* background-color: red; */
+    padding: 2rem;
+    height: 91.3vh;
+}
+.sub-part {
+    /* background-color: yellow; */
+    width: 30%;
+}
+.links h5 {
+
+    font-family:'Times New Roman', Times, serif;
+}
+.links {
+    margin-top: 9rem;
+    margin-left: 2rem;
+
+}
+.social {
+    margin-top: 7rem;
+    display: flex;
+    gap: 35px;
+}
+.social img {
+    transition: transform 0.3s; 
+}
+
+.social img:hover {
+    transform: scale(1.1); 
+}.section44{
+
+    background-color: #153377;
+}
+.section4 {
+    height: 65vh;
+    display: flex;
+
+}
+.Details1 {
+    color: white;
+    margin-left: 10rem;
+    padding-top: 6rem;
+    
+}
+.Details2 {
+    color: white;
+    margin-left: 20rem;
+    padding-top: 6rem;
+    
+}
+.Details3 {
+    color: white;
+    margin-left: 26rem;
+    padding-top: 6rem;
+    
+}
+.Details1 h5 {
+    font-family:sans-serif;
+}
+.Details2 h5 {
+    font-family:sans-serif;
+}
+.Details3 h5 {
+    font-family:sans-serif;
+}.Details1 h3{
+    text-decoration: underline;
+}
+.social2 {
+    margin-top: 23rem;
+   display: flex;
+   height: 2rem;
+   gap: 40px;
+
+}
+.social2 img {
+    transition: transform 0.3s; 
+}
+
+.social2 img:hover {
+    transform: scale(1.1); 
+}
+.ivory {
+    margin-left: -80rem;
+    margin-top: 23rem;
+    color: white;
+}
+
+@media screen and (max-width:764px) {
+    .section4 {
+        height: 115vh;
+    
+    }
+    .Details1 {
+    
+        margin-left: 8rem;
+        padding-top: 3rem;
+        
+    }
+    .Details2 {
+        
+        margin-left: -5rem;
+        padding-top: 12rem;
+        
+    }
+    .Details3 {
+    
+        margin-left: -9rem;
+        padding-top: 26rem;
+        
+    }
+    .ivory {
+        margin-left: -12rem;
+        margin-top: 37rem;
+        font-size: 8px;
+    }
+    .social2 {
+        margin-top: 43rem;
+       margin-left: -115px;
+       height: 20px;
+       gap: 30px;
+    
+    }
+    .paragraph {
+       font-size: 9.4px !important;
+       margin-left: -30px;
+    }
+    .social {
+        margin-top: 2rem;
+        height: 20px;
+        gap: 25px;
+        
+    }
+    .links {
+        margin-top:65rem;
+        margin-left: -12rem;
+    
+    }
+    .onside2 {
+        height: 40vh;
+        width: 70%;
+        margin-top: 410px;
+        margin-left: -70px;
+    }
+    .onside img {
+      
+        height: 70vh;
+        width: 374px;
+    }
+    button {
+        width: 80%;
+    }
+    .section2{
+        background-color: white;
+        width: 100%;
+        height: 1410px;
+    }
+    .scube {
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        margin-top: -3rem;
+        margin-left: -19rem;
+    
+    }
+    .secimg3{
+        height: 15rem;
+        margin-left: -17rem;
+        margin-top: 2rem;
+    }
+    .section_left h1{
+        font-size: 15px;
+        margin-top: 230px !important;
+        margin-left: -10px;
+    }
+    .rounded{
+        display: none;
+    }
+    .Para{
+        font-size: 20px;
+        margin-top: 200px;
+    }
+    .para2{
+        font-size: 15px;
+    }
+    .button{
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    .logo {
+        width: 50px;
+        margin-left: 1rem;
+        margin-top: -10px;
+    }
+    nav ul li a {
+        margin-right: 15px;
+        font-size: 10px !important;
+       
+    }
+    nav ul li{
+        margin-right:7px;
+        font-size: 10px;
+        margin-top: -10px;
+    }
+    nav ul{
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    nav ul li img.phone {
+        width: 15px; 
+        height: auto;
+        margin-right: 8px; 
+        vertical-align: middle; 
+    }
+    .con{
+        margin-left: -40px;
+    }
+    .menPhoto{
+        height: 25%;
+        width: 34%;
+        left: 40px;
+    }
+}
+
